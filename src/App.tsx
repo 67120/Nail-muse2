@@ -207,12 +207,12 @@ export default function App() {
       {/* Categories: Systematic Precision (Recipe 1/9/12) */}
       <section id="categories" className="py-40 px-8 bg-white border-b border-brand-secondary/10">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col lg:flex-row justify-between items-end mb-32 gap-12">
-            <div className="max-w-xl">
+          <div className="flex flex-col items-center text-center mb-32 gap-8">
+            <div className="max-w-3xl">
               <div className="text-brand-primary font-black text-[10px] uppercase tracking-[0.4em] mb-6">Твоят избор</div>
               <h2 className="text-6xl md:text-8xl font-serif italic font-bold text-brand-accent leading-tight">Стил за <br /> всяка от вас</h2>
             </div>
-            <div className="text-brand-accent/30 font-serif italic text-2xl max-w-xs text-right">
+            <div className="text-brand-accent/30 font-serif italic text-2xl max-w-xl">
               Намери твоето вдъхновение, независимо дали търсиш класика или нещо съвсем ново.
             </div>
           </div>
